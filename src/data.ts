@@ -5,6 +5,7 @@ export const COMPANY_INFO = {
   phone: '+1 (902) 210-5062',
   phoneRaw: '19022105062',
   email: 'Haulmtransport@hotmail.com',
+  address: '71 Simmonds Rd, North Preston, NS B2Z 1A3',
   serviceArea: 'Halifax Regional Municipality (HRM), Dartmouth, Cape Breton, Truro, Annapolis Valley, and across Nova Scotia',
   hours: [
     { days: 'Monday - Friday', times: '6:00 AM - 6:00 PM' },

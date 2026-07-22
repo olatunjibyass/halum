@@ -40,7 +40,7 @@ export default function Navbar({ currentPage, setCurrentPage, openQuoteModal }: 
             24/7 Operations Support
           </span>
           <span className="hidden md:inline-block">|</span>
-          <span className="hidden md:inline-block">Serving HRM & Across Nova Scotia</span>
+          <span className="hidden md:inline-block">{COMPANY_INFO.address}</span>
         </div>
         <div className="flex items-center gap-4">
           <a href={`tel:${COMPANY_INFO.phoneRaw}`} className="text-emerald-500 hover:text-emerald-400 font-semibold flex items-center gap-1 transition-colors">
