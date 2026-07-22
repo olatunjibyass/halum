@@ -66,32 +66,32 @@ export const Logo: React.FC<LogoProps> = ({
   const [imgError, setImgError] = useState(false);
 
   const sizeClasses = {
-    sm: 'h-8',
-    md: 'h-10 sm:h-12',
-    lg: 'h-14 sm:h-16',
+    sm: 'h-14 sm:h-16',
+    md: 'h-20 sm:h-24 md:h-28',
+    lg: 'h-28 sm:h-36 md:h-44',
   };
 
   const iconSizes = {
-    sm: 'w-8 h-8',
-    md: 'w-10 h-10 sm:w-12 sm:h-12',
-    lg: 'w-14 h-14 sm:w-16 sm:h-16',
+    sm: 'w-14 h-14',
+    md: 'w-20 h-20 sm:w-24 sm:h-24',
+    lg: 'w-28 h-28 sm:w-36 sm:h-36',
   };
 
   const textSizes = {
-    sm: 'text-lg',
-    md: 'text-2xl',
-    lg: 'text-3xl',
+    sm: 'text-xl sm:text-2xl',
+    md: 'text-2xl sm:text-3xl md:text-4xl',
+    lg: 'text-3xl sm:text-4xl md:text-5xl',
   };
 
   return (
-    <div className={`flex items-center gap-3 ${className}`}>
+    <div className={`flex items-center gap-3.5 ${className}`}>
       {!imgError ? (
         <img
-          src="/logo-clean.png"
+          src="/logo.png"
           alt="HAULM Transport Logo"
           referrerPolicy="no-referrer"
           onError={() => setImgError(true)}
-          className={`${sizeClasses[size]} w-auto object-contain transition-transform group-hover:scale-105 duration-300 filter drop-shadow-[0_2px_8px_rgba(16,185,129,0.25)]`}
+          className={`${sizeClasses[size]} w-auto object-contain transition-transform group-hover:scale-105 duration-300 mix-blend-screen filter brightness-110 contrast-105 drop-shadow-[0_4px_14px_rgba(16,185,129,0.4)] shrink-0`}
         />
       ) : (
         <LogoIcon className={iconSizes[size]} />

@@ -5,14 +5,14 @@ export const COMPANY_INFO = {
   phone: '+1 (902) 210-5062',
   phoneRaw: '19022105062',
   email: 'Haulmtransport@hotmail.com',
-  address: '255 Highway 102, Halifax Regional Municipality, NS B2Y 4E7',
+  address: '71 Simmonds Rd, North Preston, NS B2Z 1A3',
   serviceArea: 'Halifax Regional Municipality (HRM), Dartmouth, Cape Breton, Truro, Annapolis Valley, and across Nova Scotia',
   hours: [
     { days: 'Monday - Friday', times: '6:00 AM - 6:00 PM' },
     { days: 'Saturday', times: '7:00 AM - 2:00 PM' },
     { days: 'Sunday', times: 'Emergency & Scheduled Infrastructure Support Only (24/7)' }
   ],
-  logoUrl: 'https://i.postimg.cc/9M4t1xJg/haulm-logo.png' // Cleaned direct image link or we can fallback to standard stylized rendering.
+  logoUrl: '/logo.png'
 };
 
 export const SERVICES: ServiceItem[] = [

@@ -52,7 +52,7 @@ export default function Navbar({ currentPage, setCurrentPage, openQuoteModal }: 
 
       {/* Main Navigation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center py-3 min-h-[6.5rem] sm:min-h-[7rem]">
           {/* Logo Brand Link - Editorial Style */}
           <button
             id="brand-logo-btn"
