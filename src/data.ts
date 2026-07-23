@@ -5,11 +5,12 @@ export const COMPANY_INFO = {
   phone: '+1 (902) 210-5062',
   phoneRaw: '19022105062',
   email: 'Haulmtransport@hotmail.com',
+  address: '71 Simmonds Rd, North Preston, NS B2Z 1A3',
   serviceArea: 'Halifax Regional Municipality (HRM), Dartmouth, Cape Breton, Truro, Annapolis Valley, and across Nova Scotia',
   hours: [
     { days: 'Monday - Friday', times: '6:00 AM - 6:00 PM' },
     { days: 'Saturday', times: '7:00 AM - 2:00 PM' },
-    { days: 'Sunday', times: 'Emergency & Scheduled Infrastructure Support Only (24/7)' }
+    { days: 'Sunday', times: 'Emergency & Scheduled Infrastructure Support Only (24)' }
   ],
   logoUrl: '/logo.png?v=4'
 };
@@ -65,7 +66,7 @@ export const SERVICES: ServiceItem[] = [
       'Bulk Mulch and landscape compost delivery in spring/summer',
       'High-tonnage winter Road Salt transport to municipal yards',
       'Pre-season stockpiling and continuous refilling logistics',
-      '24/7 support for emergency snow removal clearing and heavy haulage',
+      '24 support for emergency snow removal clearing and heavy haulage',
       'Specialized moisture-controlled material logistics'
     ],
     iconName: 'CloudSnow',
@@ -272,6 +273,6 @@ export const FAQS: FAQItem[] = [
   },
   {
     question: 'Do you offer emergency or after-hours hauling support?',
-    answer: 'Yes. We support active civil infrastructure and municipal projects with 24/7 night-shift hauling, weekend paving links, and emergency winter road-salt logistics.'
+    answer: 'Yes. We support active civil infrastructure and municipal projects with 24 night-shift hauling, weekend paving links, and emergency winter road-salt logistics.'
   }
 ];

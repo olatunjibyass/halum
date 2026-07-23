@@ -36,7 +36,7 @@ export default function IndustriesPage({ openQuoteModal, setCurrentPage }: Indus
     ],
     'municipal': [
       'Full compliance with NSTIR & NSPW safety requirements',
-      '24/7 winter emergency road salt stockpiling support',
+      '24 winter emergency road salt stockpiling support',
       'Watermain excavation trenching soil removal loops'
     ],
     'landscaping': [

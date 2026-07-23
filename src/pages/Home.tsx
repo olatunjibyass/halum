@@ -12,7 +12,7 @@ interface HomeProps {
 
 export default function Home({ setCurrentPage, openQuoteModal }: HomeProps) {
   const stats = [
-    { label: '24/7 Availability', desc: 'Continuous night paving & emergency dispatch support', icon: Award },
+    { label: '24 Availability', desc: 'Continuous night paving & emergency dispatch support', icon: Award },
     { label: 'Fully Licensed & Insured', desc: 'NSTIR, NSPW registered and NSECC compliant operators', icon: ShieldCheck },
     { label: 'Experienced Operators', desc: 'Halifax-based safety trained professional truck drivers', icon: Users },
     { label: 'Commercial & Civil Projects', desc: 'Equipped for heavy mass excavation and highway links', icon: Truck },
@@ -127,7 +127,7 @@ export default function Home({ setCurrentPage, openQuoteModal }: HomeProps) {
               <div className="text-[10px] text-emerald-500 font-bold uppercase tracking-[0.2em] mb-6">Operation Metrics</div>
               <div className="grid grid-cols-2 gap-6">
                 <div className="border-l-2 border-emerald-500 pl-4 py-1">
-                  <div className="text-2xl sm:text-3xl font-black font-display text-white">24/7</div>
+                  <div className="text-2xl sm:text-3xl font-black font-display text-white">24</div>
                   <div className="text-[9px] uppercase tracking-wider text-slate-400 font-semibold">Availability</div>
                 </div>
                 <div className="border-l-2 border-emerald-500 pl-4 py-1">

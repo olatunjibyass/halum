@@ -55,6 +55,13 @@ export default function Footer({ setCurrentPage }: FooterProps) {
               <li className="flex items-start gap-3">
                 <MapPin className="text-emerald-500 shrink-0 mt-0.5" size={18} />
                 <span>
+                  <strong className="block text-white font-semibold">Business Address</strong>
+                  {COMPANY_INFO.address}
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <MapPin className="text-emerald-500/70 shrink-0 mt-0.5" size={18} />
+                <span>
                   <strong className="block text-white font-semibold">Primary Service Area</strong>
                   {COMPANY_INFO.serviceArea}
                 </span>
@@ -62,7 +69,7 @@ export default function Footer({ setCurrentPage }: FooterProps) {
               <li className="flex items-center gap-3">
                 <Phone className="text-emerald-500 shrink-0" size={18} />
                 <span>
-                  <strong className="block text-white font-semibold">24/7 Dispatch Hotline</strong>
+                  <strong className="block text-white font-semibold">24 Dispatch Hotline</strong>
                   <a href={`tel:${COMPANY_INFO.phoneRaw}`} className="hover:text-emerald-500 transition-colors">
                     {COMPANY_INFO.phone}
                   </a>

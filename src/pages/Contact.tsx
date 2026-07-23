@@ -112,6 +112,13 @@ export default function ContactPage() {
               <div className="flex gap-4">
                 <MapPin className="text-emerald-500 shrink-0 mt-0.5" size={20} />
                 <div>
+                  <h4 className="text-white font-bold text-xs uppercase tracking-wider font-display">Business Headquarters</h4>
+                  <p className="text-slate-300 text-xs sm:text-sm font-medium mt-1 leading-relaxed">{COMPANY_INFO.address}</p>
+                </div>
+              </div>
+              <div className="flex gap-4 border-t border-slate-800 pt-4">
+                <MapPin className="text-emerald-500/70 shrink-0 mt-0.5" size={20} />
+                <div>
                   <h4 className="text-white font-bold text-xs uppercase tracking-wider font-display">Primary Coverage Area</h4>
                   <p className="text-slate-400 text-xs mt-1 leading-relaxed">{COMPANY_INFO.serviceArea}</p>
                 </div>
@@ -119,7 +126,7 @@ export default function ContactPage() {
               <div className="flex gap-4 border-t border-slate-800 pt-4">
                 <Phone className="text-emerald-500 shrink-0 mt-0.5" size={20} />
                 <div>
-                  <h4 className="text-white font-bold text-xs uppercase tracking-wider font-display">24/7 Dispatch Hotline</h4>
+                  <h4 className="text-white font-bold text-xs uppercase tracking-wider font-display">24 Dispatch Hotline</h4>
                   <a href={`tel:${COMPANY_INFO.phoneRaw}`} className="text-emerald-500 hover:underline text-sm font-extrabold mt-1 block">
                     {COMPANY_INFO.phone}
                   </a>
