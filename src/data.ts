@@ -12,7 +12,7 @@ export const COMPANY_INFO = {
     { days: 'Saturday', times: '7:00 AM - 2:00 PM' },
     { days: 'Sunday', times: 'Emergency & Scheduled Infrastructure Support Only (24)' }
   ],
-  logoUrl: '/logo.png?v=4'
+  logoUrl: '/logo.png?v=5'
 };
 
 export const SERVICES: ServiceItem[] = [

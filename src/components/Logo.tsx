@@ -87,7 +87,7 @@ export const Logo: React.FC<LogoProps> = ({
     <div className={`flex items-center gap-3.5 ${className}`}>
       {!imgError ? (
         <img
-          src="/logo.png?v=4"
+          src="/logo.png?v=5"
           alt="HAULM Transport Logo"
           referrerPolicy="no-referrer"
           onError={() => setImgError(true)}
