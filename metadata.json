@@ -1,6 +1,6 @@
 {
   "name": "Haulm Transport",
-  "description": "Professional dump truck hauling and bulk material delivery services for construction, municipal, and commercial projects across Ontario.",
+  "description": "Professional dump truck hauling and bulk material delivery services for construction, municipal, and commercial projects across Nova Scotia.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
