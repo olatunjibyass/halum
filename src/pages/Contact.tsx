@@ -112,8 +112,8 @@ export default function ContactPage() {
               <div className="flex gap-4">
                 <MapPin className="text-emerald-500 shrink-0 mt-0.5" size={20} />
                 <div>
-                  <h4 className="text-white font-bold text-xs uppercase tracking-wider font-display">Business Headquarters</h4>
-                  <p className="text-slate-400 text-xs mt-1 leading-relaxed">{COMPANY_INFO.address}</p>
+                  <h4 className="text-white font-bold text-xs uppercase tracking-wider font-display">Primary Coverage Area</h4>
+                  <p className="text-slate-400 text-xs mt-1 leading-relaxed">{COMPANY_INFO.serviceArea}</p>
                 </div>
               </div>
               <div className="flex gap-4 border-t border-slate-800 pt-4">
