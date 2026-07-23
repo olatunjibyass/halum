@@ -69,7 +69,7 @@ export default function Footer({ setCurrentPage }: FooterProps) {
               <li className="flex items-center gap-3">
                 <Phone className="text-emerald-500 shrink-0" size={18} />
                 <span>
-                  <strong className="block text-white font-semibold">24 Dispatch Hotline</strong>
+                  <strong className="block text-white font-semibold">24Hr Dispatch Hotline</strong>
                   <a href={`tel:${COMPANY_INFO.phoneRaw}`} className="hover:text-emerald-500 transition-colors">
                     {COMPANY_INFO.phone}
                   </a>

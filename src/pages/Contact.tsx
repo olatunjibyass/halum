@@ -79,7 +79,7 @@ export default function ContactPage() {
       <section className="relative py-20 bg-slate-900 border-b border-white/5 overflow-hidden">
         <div className="absolute inset-0 opacity-15">
           <img
-            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80"
+            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80"
             alt="Halifax dispatch"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -126,7 +126,7 @@ export default function ContactPage() {
               <div className="flex gap-4 border-t border-slate-800 pt-4">
                 <Phone className="text-emerald-500 shrink-0 mt-0.5" size={20} />
                 <div>
-                  <h4 className="text-white font-bold text-xs uppercase tracking-wider font-display">24 Dispatch Hotline</h4>
+                  <h4 className="text-white font-bold text-xs uppercase tracking-wider font-display">24Hr Dispatch Hotline</h4>
                   <a href={`tel:${COMPANY_INFO.phoneRaw}`} className="text-emerald-500 hover:underline text-sm font-extrabold mt-1 block">
                     {COMPANY_INFO.phone}
                   </a>

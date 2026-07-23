@@ -37,7 +37,7 @@ export default function Navbar({ currentPage, setCurrentPage, openQuoteModal }: 
         <div className="flex items-center gap-4">
           <span className="flex items-center gap-1.5">
             <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-            24 Operations Support
+            24Hr Operations Support
           </span>
           <span className="hidden md:inline-block">|</span>
           <span className="hidden md:inline-block">{COMPANY_INFO.address}</span>

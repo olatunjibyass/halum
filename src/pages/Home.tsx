@@ -12,7 +12,7 @@ interface HomeProps {
 
 export default function Home({ setCurrentPage, openQuoteModal }: HomeProps) {
   const stats = [
-    { label: '24 Availability', desc: 'Continuous night paving & emergency dispatch support', icon: Award },
+    { label: '24Hr Availability', desc: 'Continuous night paving & emergency dispatch support', icon: Award },
     { label: 'Fully Licensed & Insured', desc: 'NSTIR, NSPW registered and NSECC compliant operators', icon: ShieldCheck },
     { label: 'Experienced Operators', desc: 'Halifax-based safety trained professional truck drivers', icon: Users },
     { label: 'Commercial & Civil Projects', desc: 'Equipped for heavy mass excavation and highway links', icon: Truck },
@@ -127,7 +127,7 @@ export default function Home({ setCurrentPage, openQuoteModal }: HomeProps) {
               <div className="text-[10px] text-emerald-500 font-bold uppercase tracking-[0.2em] mb-6">Operation Metrics</div>
               <div className="grid grid-cols-2 gap-6">
                 <div className="border-l-2 border-emerald-500 pl-4 py-1">
-                  <div className="text-2xl sm:text-3xl font-black font-display text-white">24</div>
+                  <div className="text-2xl sm:text-3xl font-black font-display text-white">24HR</div>
                   <div className="text-[9px] uppercase tracking-wider text-slate-400 font-semibold">Availability</div>
                 </div>
                 <div className="border-l-2 border-emerald-500 pl-4 py-1">
@@ -496,7 +496,7 @@ export default function Home({ setCurrentPage, openQuoteModal }: HomeProps) {
       <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-slate-900 border-t border-slate-800">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80"
+            src="https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=1200&q=80"
             alt="Excavator site work"
             className="w-full h-full object-cover opacity-20"
             referrerPolicy="no-referrer"

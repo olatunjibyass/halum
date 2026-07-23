@@ -178,7 +178,7 @@ export default function ServicesPage({ openQuoteModal, setCurrentPage }: Service
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=800&q=80"
+              src="/earth_moving.jpg?v=1"
               alt="Dump truck on construction road site"
               className="rounded-none shadow-xl border border-white/5"
               referrerPolicy="no-referrer"

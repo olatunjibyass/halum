@@ -10,9 +10,9 @@ export const COMPANY_INFO = {
   hours: [
     { days: 'Monday - Friday', times: '6:00 AM - 6:00 PM' },
     { days: 'Saturday', times: '7:00 AM - 2:00 PM' },
-    { days: 'Sunday', times: 'Emergency & Scheduled Infrastructure Support Only (24)' }
+    { days: 'Sunday', times: 'Emergency & Scheduled Infrastructure Support Only (24Hr)' }
   ],
-  logoUrl: '/logo.png?v=5'
+  logoUrl: '/logo.png?v=7'
 };
 
 export const SERVICES: ServiceItem[] = [
@@ -28,7 +28,7 @@ export const SERVICES: ServiceItem[] = [
       'Direct quarry-to-site supply chain management'
     ],
     iconName: 'Layers',
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80'
+    image: '/aggregate_hauling.jpg?v=2'
   },
   {
     id: 'earth-moving',
@@ -42,7 +42,7 @@ export const SERVICES: ServiceItem[] = [
       'Precision volume scheduling for continuous excavator support'
     ],
     iconName: 'TrendingDown',
-    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80'
+    image: '/earth_moving.jpg?v=1'
   },
   {
     id: 'construction-waste',
@@ -56,7 +56,7 @@ export const SERVICES: ServiceItem[] = [
       'Nova Scotia Environment & Climate Change (NSECC) compliant manifest logging'
     ],
     iconName: 'Trash2',
-    image: 'https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=800&q=80'
+    image: '/construction_waste.jpg?v=1'
   },
   {
     id: 'seasonal-services',
@@ -66,7 +66,7 @@ export const SERVICES: ServiceItem[] = [
       'Bulk Mulch and landscape compost delivery in spring/summer',
       'High-tonnage winter Road Salt transport to municipal yards',
       'Pre-season stockpiling and continuous refilling logistics',
-      '24 support for emergency snow removal clearing and heavy haulage',
+      '24Hr support for emergency snow removal clearing and heavy haulage',
       'Specialized moisture-controlled material logistics'
     ],
     iconName: 'CloudSnow',
@@ -108,7 +108,7 @@ export const INDUSTRIES: IndustryItem[] = [
     name: 'Municipal Infrastructure',
     description: 'Public roads, watermain excavations, salt stockpiling, and regional transit development support.',
     iconName: 'Briefcase',
-    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=600&q=80'
+    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 'landscaping',
@@ -136,7 +136,7 @@ export const INDUSTRIES: IndustryItem[] = [
     name: 'Excavation Companies',
     description: 'Fast, high-frequency dump truck shuttle loops to clear soil, clay, and fractured rock from deep foundation holes.',
     iconName: 'Construction',
-    image: 'https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=600&q=80'
+    image: '/earth_moving.jpg?v=1'
   }
 ];
 
@@ -221,7 +221,7 @@ export const PROJECTS: ProjectItem[] = [
     title: 'Highway 102 Corridor Upgrade',
     category: 'Infrastructure',
     location: 'Halifax, NS',
-    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=600&q=80',
     stats: '12,500 Tons of Asphalt Millings Removed'
   },
   {
@@ -229,7 +229,7 @@ export const PROJECTS: ProjectItem[] = [
     title: 'Dartmouth Commercial Excavation',
     category: 'Commercial excavation',
     location: 'Dartmouth, NS',
-    image: 'https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=600&q=80',
+    image: '/earth_moving.jpg?v=1',
     stats: '8,200 Cubic Yards of Clay Hauled'
   },
   {
@@ -273,6 +273,6 @@ export const FAQS: FAQItem[] = [
   },
   {
     question: 'Do you offer emergency or after-hours hauling support?',
-    answer: 'Yes. We support active civil infrastructure and municipal projects with 24 night-shift hauling, weekend paving links, and emergency winter road-salt logistics.'
+    answer: 'Yes. We support active civil infrastructure and municipal projects with 24Hr night-shift hauling, weekend paving links, and emergency winter road-salt logistics.'
   }
 ];

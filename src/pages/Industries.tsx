@@ -36,7 +36,7 @@ export default function IndustriesPage({ openQuoteModal, setCurrentPage }: Indus
     ],
     'municipal': [
       'Full compliance with NSTIR & NSPW safety requirements',
-      '24 winter emergency road salt stockpiling support',
+      '24Hr winter emergency road salt stockpiling support',
       'Watermain excavation trenching soil removal loops'
     ],
     'landscaping': [
@@ -68,7 +68,7 @@ export default function IndustriesPage({ openQuoteModal, setCurrentPage }: Indus
       <section className="relative py-20 bg-slate-900 border-b border-slate-800 overflow-hidden">
         <div className="absolute inset-0 opacity-15">
           <img
-            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80"
+            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80"
             alt="Infrastructure construction site"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
