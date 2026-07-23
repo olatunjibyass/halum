@@ -87,11 +87,11 @@ export const Logo: React.FC<LogoProps> = ({
     <div className={`flex items-center gap-3.5 ${className}`}>
       {!imgError ? (
         <img
-          src="/logo.png?v=3"
+          src="/logo.png?v=4"
           alt="HAULM Transport Logo"
           referrerPolicy="no-referrer"
           onError={() => setImgError(true)}
-          className={`${sizeClasses[size]} w-auto object-contain transition-transform group-hover:scale-105 duration-300 filter brightness-110 contrast-105 drop-shadow-[0_4px_14px_rgba(16,185,129,0.4)] shrink-0`}
+          className={`${sizeClasses[size]} w-auto object-contain transition-transform group-hover:scale-105 duration-300 filter brightness-110 contrast-110 drop-shadow-[0_4px_16px_rgba(16,185,129,0.5)] shrink-0`}
         />
       ) : (
         <LogoIcon className={iconSizes[size]} />
